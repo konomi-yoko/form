@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>フォーム練習</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="ewset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="contact">
+		<form>
+			<!-- テキスト -->
+			<div class="form-group"></div>
+				<label class="label">お名前</label>
+				<input type="text" name="" class="input-field" placeholder="お名前を記入してください">
+			<!-- ラジオボタン -->
+			<div class="form-group">
+				<span class="label">性別</span>
+				<span class="input-field">
+					<label>
+						<input type="radio" name="gender" id="male" checked="checked">
+						男性
+					</label>
+					<label>
+						<input type="radio" name="gender" id="female">
+						女性
+					</label>
+				</span>
+			</div>
+			<!-- セレクトボックス -->
+			<div class="form-group">
+				<span class="label">出身</span>
+				<span class="input-field">
+					<select>
+						<option value="1">東京</option>
+						<option value="2">千葉</option>
+						<option value="3">神奈川</option>
+						<option value="4">沖縄</option>
+					</select>
+				</span>
+			</div>
+			<!-- チェックボックス -->
+			<div class="form-group"></div>
+				<span class="label">話せる言語</span>
+				<span class="input-field">
+					<label for="english">
+						<input type="checkbox" name="language" id="english">
+						英語
+					</label>
+					<label for="japanese">
+						<input type="checkbox" name="language" id="japanese">
+						日本語
+					</label>
+				</span>
+			<!-- ボタン -->
+			<div class="form-group"></div>
+			<button type="submit" class="button">送信</button>
+		</form>
+	</div>
+
+</body>
+</html>
